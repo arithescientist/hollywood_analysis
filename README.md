@@ -83,12 +83,6 @@ By analyzing the results, we concluded that most studios prefer to create drama 
 <img src='zippedData/gpvsva.jpg'/>
 <img src='zippedData/pmvsp.jpg'/>
 
-### Conclusion
-  Based on our analysis the top 3 genre combinations based on gross revenue are:
-* Action, Adventure, Sci-Fi
-* Action, Adventure, Thriller
-* Action Adventure, Fantasy
-
 ### Recommendation
   From this, we can see the top-earning movie within the last decade is The Avengers Infinity war, even though it's only been out for about a year from me writing this. We also plotted scatterplots to help us understand the relationship between the voting average and the profit margin of movies within the last decade and also the relationship between the popularity and the profit margin of a movie. From analyzing the scatter plots we could conclude that both have a positive relationship, which means the higher the voting average, the higher the profit margin, and the higher the popularity, the higher the profit margin as well so movies should definitely focus on marketing. 
 
