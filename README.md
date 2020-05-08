@@ -6,7 +6,7 @@
 
 # Table Of Contents
 * [Purpose](#purpose)
-* [Data Description](#data-description)
+* [Data Files](#data-description)
 * [Question 4](#question-4)
 * [Question 5](#question-5)
 * [Question 6](#question-6)
@@ -17,7 +17,7 @@
 * [Future Work](#future-work)
   
 
-<img src='zippedData.jpg' width='80%'/>
+<img src='zippedData/img.jpg' width='80%'/>
 
 <!---
 # = h1
