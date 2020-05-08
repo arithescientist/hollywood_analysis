@@ -56,9 +56,44 @@ Data files used:
 * imdb.title.akas.csv
 * imdb.title.basics.csv
 
+## Question 1:
+## [What is the distribution for movies in each genre? What are the top 3 genres that film studios create the most?](./Q1.ipynb)
+### EDA
+<img src='zippedData/topgenre.jpg'/>
+
+### Conclusion
+By analyzing the results, we concluded that most studios prefer to create drama films, followed by documentaries. 
+
+# Question 2:
+## [What are the most lucrative genre combinations?](./Q2&3.ipynb)
+### EDA
+<img src='zippedData/genrevsgrossprofit.jpg'/>
+<img src='zippedData/genrevsvote.jpg'/>
+<img src='zippedData/votevspopularity.jpg'/>
+
+### Conclusion
+  We then went on to investigate the 10 most popular and highest rated films and also if there was a relationship between the popularity of a movie and the movie’s rating. Before the same initial steps for the first question but for this we filtered the data for movies made between the last decade that have an average vote count higher than 190. We only used movies made in the last decade because we found out that movies made in the previous decade had really low box office numbers and this night have dragged the average box office numbers down. 
+
+  From the histogram we can see the top 10 movies in the last decade with the highest voting average and in the second graph we can see the scatterplot showing the relationship between the voting average and popularity of a movie. From this we can conclude that action and adventure movies are the most popular movies by far and foreign and drama films had the highest ratings, but this could also mean that not a lot of people knew about them so not a lot of people would not like them, hope you understand the logic. When we looked at the correlation between the voting average and popularity, we found the correlation is 0.22 which means the correlation is negligible. So, in other words, a popular movie doesn't exactly mean the movie will have a high rating, but it's plausible. 
+
+# Question 3:
+## [What are the most lucrative genre combinations?](./Q2&3.ipynb)
+### EDA
+<img src='zippedData/genrevsprofitmargin.jpg'/>
+<img src='zippedData/gpvsva.jpg'/>
+<img src='zippedData/pmvsp.jpg'/>
+
+### Conclusion
+  Based on our analysis the top 3 genre combinations based on gross revenue are:
+* Action, Adventure, Sci-Fi
+* Action, Adventure, Thriller
+* Action Adventure, Fantasy
+
+### Recommendation
+  From this, we can see the top-earning movie within the last decade is The Avengers Infinity war, even though it's only been out for about a year from me writing this. We also plotted scatterplots to help us understand the relationship between the voting average and the profit margin of movies within the last decade and also the relationship between the popularity and the profit margin of a movie. From analyzing the scatter plots we could conclude that both have a positive relationship, which means the higher the voting average, the higher the profit margin, and the higher the popularity, the higher the profit margin as well so movies should definitely focus on marketing. 
 
 ## Question 4:
-## [What are the most lucrative genre combinations?](./student.ipynb)
+## [What are the most lucrative genre combinations?](./Q4-9.ipynb)
 
 ### Table Used
  <img src='zippedData/top_5_genremix.jpg'/>
@@ -67,7 +102,7 @@ Data files used:
 <img src='zippedData/best_genre.jpg'/>
 
 ### Conclusion
-Based on our analysis the top 3 genre combinations based on gross revenue are:
+  Based on our analysis the top 3 genre combinations based on gross revenue are:
 * Action, Adventure, Sci-Fi
 * Action, Adventure, Thriller
 * Action Adventure, Fantasy
@@ -77,7 +112,7 @@ Based on this I'll suggest we focus more on producing Action, Adventure, Sci-Fi 
 
 
 ## Question 5:  
-## [Who are the top 5 writers, producers, and directors for top 3 genres?](./student.ipynb)
+## [Who are the top 5 writers, producers, and directors for top 3 genres?](./Q4-9.ipynb)
 Since the most lucrative genres are Action, Adventure and Sci-Fi, based on our analysis the ideal casts for each genre are as follows:
 
 | Genre | Producers | Directors | Writers |
@@ -110,7 +145,7 @@ Based on this data my best pick for top genres are as follows:
 
 
 ## Question 6: 
-## [What's the relationship between the age of a crew member and the rating of a movie?](./student.ipynb)
+## [What's the relationship between the age of a crew member and the rating of a movie?](./Q4-9.ipynb)
 
 ### Table Used
  <img src='zippedData/crew_age.jpg'/>
@@ -148,7 +183,7 @@ Based on this I'll strongly recommend hiring a combination of a younger producer
 
 
 ## Question 7: 
-## [What's the relationship between the gender of the lead act in an action movie and the gross revenue?](./student.ipynb)
+## [What's the relationship between the gender of the lead act in an action movie and the gross revenue?](./Q4-9.ipynb)
 
 ### EDA
 <img src='zippedData/gross_vs_gender.jpg'/>
@@ -162,7 +197,7 @@ Note: This is just for action movies alone.
 
 
 ## Question 8: 
-## [What's the relationship between the length of a movie and the gross revenue/rating of that movie?](./student.ipynb)
+## [What's the relationship between the length of a movie and the gross revenue/rating of that movie?](./Q4-9.ipynb)
  
 ### EDA
 #### Movie Length VS Movie Rating
@@ -179,7 +214,7 @@ From this positive slope we understand that the higher the length of a movie, th
 
 
 ## Question 9: 
-## [What's the most lucrative combination of genre?](./student.ipynb)
+## [What's the most lucrative combination of genre?](./Q4-9.ipynb)
 
 ### Table Used
  <img src='zippedData/monthtable.jpg'/>
