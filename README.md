@@ -72,7 +72,7 @@ By analyzing the results, we concluded that most studios prefer to create drama 
 <img src='zippedData/votevspopularity.JPG' width='80%'/>
 
 ### Conclusion
-  From the histogram we can see the top 10 movies in the last decade with the highest voting average and in the second graph we can see the scatterplot showing the relationship between the voting average and popularity of a movie. From this we can conclude that action and adventure movies are the most popular movies by far and foreign and drama films had the highest ratings, but this could also mean that not a lot of people knew about them so not a lot of people would not like them, hope you understand the logic. When we looked at the correlation between the voting average and popularity, we found the correlation is 0.22 which means the correlation is negligible. So, in other words, a popular movie doesn't exactly mean the movie will have a high rating, but it's plausible. 
+  When we looked at the correlation between the voting average and popularity, we found the correlation is 0.22 which means the correlation is negligible. So, in other words, a popular movie doesn't exactly mean the movie will have a high rating, but it's plausible. 
 
 # Question 3:
 ## [What are the most lucrative genre combinations?](./Q2-&-Q3.ipynb)
@@ -82,7 +82,7 @@ By analyzing the results, we concluded that most studios prefer to create drama 
 <img src='zippedData/pmvsp.JPG' width='80%'/>
 
 ### Conclusion
-  From this, we can see the top-earning movie within the last decade is The Avengers Infinity war, even though it's only been out for about a year from me writing this. We also plotted scatterplots to help us understand the relationship between the voting average and the profit margin of movies within the last decade and also the relationship between the popularity and the profit margin of a movie. From analyzing the scatter plots we could conclude that both have a positive relationship, which means the higher the voting average, the higher the profit margin, and the higher the popularity, the higher the profit margin as well so movies should definitely focus on marketing. 
+  From analyzing the scatter plots we could conclude that both have a positive relationship, which means the higher the voting average, the higher the profit margin, and the higher the popularity, the higher the profit margin as well so movies should definitely focus on marketing. 
 
 ## Question 4:
 ## [What are the most lucrative genre combinations?](./Q4-9.ipynb)
@@ -100,7 +100,7 @@ By analyzing the results, we concluded that most studios prefer to create drama 
 * Action Adventure, Fantasy
 
 ### Recommendation
-Based on this I'll suggest we focus more on producing Action, Adventure, Sci-Fi movies initially.
+  Based on this I'll suggest we focus more on producing Action, Adventure, Sci-Fi movies initially.
 
 
 ## Question 5:  
