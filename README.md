@@ -65,7 +65,7 @@ Data files used:
 By analyzing the results, we concluded that most studios prefer to create drama films, followed by documentaries. 
 
 # Question 2:
-## [What are the most lucrative genre combinations?](./Q2&3.ipynb)
+## [What are the most lucrative genre combinations?](./Q2-&-Q3.ipynb) 
 ### EDA
 <img src='/zippedData/genrevsgrossprofit.JPG' width='80%'/>
 <img src='zippedData/genrevsvote.JPG' width='80%'/>
@@ -75,7 +75,7 @@ By analyzing the results, we concluded that most studios prefer to create drama 
   From the histogram we can see the top 10 movies in the last decade with the highest voting average and in the second graph we can see the scatterplot showing the relationship between the voting average and popularity of a movie. From this we can conclude that action and adventure movies are the most popular movies by far and foreign and drama films had the highest ratings, but this could also mean that not a lot of people knew about them so not a lot of people would not like them, hope you understand the logic. When we looked at the correlation between the voting average and popularity, we found the correlation is 0.22 which means the correlation is negligible. So, in other words, a popular movie doesn't exactly mean the movie will have a high rating, but it's plausible. 
 
 # Question 3:
-## [What are the most lucrative genre combinations?](./Q2&3.ipynb)
+## [What are the most lucrative genre combinations?](./Q2-&-Q3.ipynb)
 ### EDA
 <img src='zippedData/genrevsprofitmargin.JPG' width='80%'/>
 <img src='zippedData/gpvsva.JPG' width='80%'/>
