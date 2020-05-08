@@ -9,6 +9,9 @@
 # Table Of Contents
 * [Purpose](#purpose)
 * [Data Files](#data-description)
+* [Question 1](#question-1)
+* [Question 2](#question-2)
+* [Question 3](#question-3)
 * [Question 4](#question-4)
 * [Question 5](#question-5)
 * [Question 6](#question-6)
@@ -31,6 +34,9 @@
 
 # Purpose
 The goal of this research is to analyze data extracted from various movie database websites in order to come up with lucrative decisions when answering: 
+* Q1 - What is the distribution for movies in each genre? What are the top 3 genres that film studios create the most?
+* Q2 - What are the top 10 most popular and highest rated films? Is there a relationship between popularity and highest rated?
+* Q3 - What are the top 10 movies with the highest gross profit margin? Is there a relationship between Popularity and Profit Margin?
 * Q4 - What's the most lucrative genre combination?
 * Q5 - Who are the top 5 writers, producers, and directors for top 3 genres?
 * Q6 - What's the relationship between the age of a crew member and the rating of a movie?
