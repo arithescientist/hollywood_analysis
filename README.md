@@ -7,17 +7,17 @@
 # Table Of Contents
 * [Purpose](#purpose)
 * [Data Description](#data-description)
-* [Question 2](##question-2)
-* [Question 3](##question-3)
-* [Question 4](##question-4)
-* [Question 5](##question-5)
-* [Question 6](##question-6)
-* [Question 7](##question-7)
+* [Question 4](#question-4)
+* [Question 5](#question-5)
+* [Question 6](#question-6)
+* [Question 7](#question-7)
+* [Question 8](#question-8)
+* [Question 9](#question-9)
 * [Summary](#summary)
 * [Future Work](#future-work)
   
 
-<img src='images/img.jpg' width='80%'/>
+<img src='zippedData.jpg' width='80%'/>
 
 <!---
 # = h1
@@ -29,12 +29,12 @@
 
 # Purpose
 The goal of this research is to analyze data extracted from various movie database websites in order to come up with lucrative decisions when answering: 
-* What's the most lucrative genre combination?
-* Who are the top 5 writers, producers, and directors for top 3 genres?
-* What's the relationship between the age of a crew member and the rating of a movie?
-* What's the relationship between the gender of the protagonist" in an action movie and the gross revenue of that movie?
-* What's the relationship between the length of a movie and the gross revenue/rating of that movie?
-* What's the relationship between the movie release month and the gross revenue/rating of a movie?
+* Q4 - What's the most lucrative genre combination?
+* Q5 - Who are the top 5 writers, producers, and directors for top 3 genres?
+* Q6 - What's the relationship between the age of a crew member and the rating of a movie?
+* Q7 -What's the relationship between the gender of the protagonist" in an action movie and the gross revenue of that movie?
+* Q8 -What's the relationship between the length of a movie and the gross revenue/rating of that movie?
+* Q9 -What's the relationship between the movie release month and the gross revenue/rating of a movie?
 
 # Data Description
 Data files used:
@@ -49,14 +49,14 @@ Data files used:
 * imdb.title.basics.csv
 
 
-## Question 2:
+## Question 4:
 ## [What are the most lucrative genre combinations?](./student.ipynb)
 
 ### Table Used
- <img src='images/top_5_genremix.png'/>
+ <img src='zippedData/top_5_genremix.jpg'/>
 
 ### EDA
-<img src='images/best_genre.png'/>
+<img src='zippedData/best_genre.jpg'/>
 
 ### Conclusion
 Based on our analysis the top 3 genre combinations based on gross revenue are:
@@ -68,41 +68,8 @@ Based on our analysis the top 3 genre combinations based on gross revenue are:
 Based on this I'll suggest we focus more on producing Action, Adventure, Sci-Fi movies initially.
 
 
-## Question 3:  
+## Question 5:  
 ## [Who are the top 5 writers, producers, and directors for top 3 genres?](./student.ipynb)
-
-### Tables Used
-#### Top 5 producers, writers and directors for Action Movies:
-##### Best Action Producers
-<img src='images/best_action_producers.png'/>
-
-##### Best Action Directors
-<img src='images/best_action_directors.png'/>
-
-##### Best Action Writers
-<img src='images/best_action_writers.png'/>
-
-#### Top 5 producers, writers and directors for Adventure Movies:
-##### Best Adventure Producers
-<img src='images/best_adventure_producers.png'/>
-
-##### Best Adventure Directors
-<img src='images/best_adventure_directors.png'/>
-
-##### Best Adventure Writers
-<img src='images/best_adventure_writers.png'/>
-
-#### Top 5 producers, writers and directors for Sci-Fi Movies:
-##### Best Sci-Fi Producers
-<img src='images/best_scifi_producers.png'/>
-
-##### Best Sci-Fi Directors
-<img src='images/best_scifi_directors.png'/>
-
-##### Best Sci-Fi Writers
-<img src='images/best_scifi_writers.png'/>
-
-### Conclusion
 Since the most lucrative genres are Action, Adventure and Sci-Fi, based on our analysis the ideal casts for each genre are as follows:
 
 | Genre | Producers | Directors | Writers |
@@ -134,18 +101,18 @@ Based on this data my best pick for top genres are as follows:
 | Sci-Fi | Don Murphy | Irrfan Khan | Steven Spielberg |
 
 
-## Question 4: 
+## Question 6: 
 ## [What's the relationship between the age of a crew member and the rating of a movie?](./student.ipynb)
 
 ### Table Used
- <img src='images/crew_age.png'/>
+ <img src='zippedData/crew_age.jpg'/>
 
 ### EDA
 ##### For Writers:
-<img src='images/writersage_vs_rating.png'/>
+<img src='zippedData/writersage_vs_rating.jpg'/>
 
 ##### For Producers & Directors:
-<img src='images/prdr_age_vs_rating.png'/>
+<img src='zippedData/prdr_age_vs_rating.jpg'/>
 
 
 ### Conclusion
@@ -172,11 +139,11 @@ We have a negative slope which means that the younger the director, the lower th
 Based on this I'll strongly recommend hiring a combination of a younger producer with an older more experienced writer and director.
 
 
-## Question 5: 
+## Question 7: 
 ## [What's the relationship between the gender of the lead act in an action movie and the gross revenue?](./student.ipynb)
 
 ### EDA
-<img src='images/gross_vs_gender.png'/>
+<img src='zippedData/gross_vs_gender.jpg'/>
 
 ### Conclusion
 As we can see from the histogram, based on gross revenue of action movies alone, an actor as the lead does about  twice as good than an actress as the lead.
@@ -186,15 +153,15 @@ Based on this I'll recommend casting males as the protagonist of action movies.
 Note: This is just for action movies alone.
 
 
-## Question 6: 
+## Question 8: 
 ## [What's the relationship between the length of a movie and the gross revenue/rating of that movie?](./student.ipynb)
  
 ### EDA
 #### Movie Length VS Movie Rating
-<img src='images/length_vs_rating.png'/>
+<img src='zippedData/length_vs_rating.jpg'/>
 
 #### Movie Length VS Movie Revenue
-<img src='images/gross_vs_length.png'/>
+<img src='zippedData/gross_vs_length.jpg'/>
 
 ### Conclusion
 From the scatter plot we can see that regardless if we use rating or revenue to measure it, we get a postive slop in movies both domestically and globally.
@@ -203,14 +170,14 @@ From the scatter plot we can see that regardless if we use rating or revenue to 
 From this positive slope we understand that the higher the length of a movie, the higher the rating and revenue of that movie will be. Given this, I'll recommend making longer movies as opposed to shorter ones. 
 
 
-## Question 7: 
+## Question 9: 
 ## [What's the most lucrative combination of genre?](./student.ipynb)
 
 ### Table Used
- <img src='images/monthtable.png'/>
+ <img src='zippedData/monthtable.jpg'/>
 
 ### EDA
-<img src='images/gross_vs_month.png'/>
+<img src='zippedData/gross_vs_month.jpg'/>
 
 ### Conclusion
 Based on our analysis the top 3 release months with the highest grossing average are: May, June and July.
@@ -249,4 +216,4 @@ After analysis of the movie data, decisions I'll definitly recommend are:
 
 
 #### For now, we dance...
-<img src='images/joker.jpeg'/>
+<img src='zippedData/joker.jpeg'/>
