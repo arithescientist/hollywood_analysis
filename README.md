@@ -1,8 +1,10 @@
 # Investigating Movie Data
-*add in hyperlinks to these items* 
-* blog link: 
-* video recording:
-* presentation.pdf: 
+
+
+<a href="https://github.com/ariavathlete/dsc-mod-1-project-v2-1-onl01-dtsc-ft-041320/blob/master/How%20To%20Break%20The%20Box%20Office.pdf"> Blog </a>
+<a href="https://github.com/ariavathlete/dsc-mod-1-project-v2-1-onl01-dtsc-ft-041320/blob/master/Success%20in%20the%20Movie%20Industry.pdf
+"> Presentation </a>
+<a href="https://github.com/ariavathlete/dsc-mod-1-project-v2-1-onl01-dtsc-ft-041320/blob/master/How%20To%20Break%20The%20Box%20Office.pdf"> Video Recording </a>
 
 # Table Of Contents
 * [Purpose](#purpose)
