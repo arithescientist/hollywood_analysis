@@ -249,6 +249,3 @@ After analysis of the movie data, decisions I'll definitly recommend are:
 * Analyse the relationship between the gender of the protagonist and the rating/revenue of a movie in other genres like Adventure or Sci-Fi
 * Analyse the relationship between the location of a studio and the profitability of the movies produced
 
-
-#### For now, we dance...
-<img src='zippedData/joker.jpeg'/>
