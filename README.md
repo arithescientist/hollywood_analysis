@@ -4,7 +4,6 @@
 <a href="https://github.com/ariavathlete/dsc-mod-1-project-v2-1-onl01-dtsc-ft-041320/blob/master/Success%20in%20the%20Movie%20Industry.pdf
 "> Presentation </a>
 <a href="https://github.com/ariavathlete/dsc-mod-1-project-v2-1-onl01-dtsc-ft-041320/blob/master/How%20To%20Break%20The%20Box%20Office.pdf"> Blog </a>
-<a href="https://drive.google.com/file/d/132X3UY9H_6BgXfvcBY1MgIdgHzgqQWP-/view?usp=sharing"> Video </a>
 
 # Table Of Contents
 * [Purpose](#purpose)
